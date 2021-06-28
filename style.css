@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+/*font-family: 'Castoro', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+/*font-family: 'Sacramento', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/*font-family: 'Dancing Script', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap');
+/*font-family: 'Great Vibes', cursive;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #cccccc;
+    background-image: radial-gradient(rgb(183, 227, 233),rgb(153, 224, 252));
+    min-height: 100vh;
+    font-family: 'Castoro', serif;
+}
+header{
+    height: 3em;
+    background-color: transparent;
+    
+}
+nav ul  {
+    display: flex;
+    justify-content:flex-end ;
+    margin-right: 8%;
+   
+}
+nav ul li{
+    
+    margin: 1.2%;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:#11999e;
+}
+nav ul li a:hover{
+    font-weight: 800;
+    text-decoration: underline;
+}
+.nav{
+    position:sticky;
+    top:0;
+    z-index: 1;
+    
+}
+
+.cloud{
+    width: 18vw;
+    position:absolute;
+    opacity: 0.2;
+    top: 180px;
+    left: 144px;
+    z-index: 0;
+}
+.cloud1{
+    width: 20vw;
+    position:absolute;
+    opacity: 0.2;
+    top: 83px;
+    left: 880px;
+    z-index: 0;
+}
+.tree{
+    width: 60vw;
+    position:absolute;
+    opacity: 0.3;
+    top: 250px;
+    left: 300px;
+    z-index: 0;
+}
+.name{
+    text-align: center;
+    margin-top: 7%;
+    z-index: 1;
+}
+.name h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    z-index: 1;
+    color:#11999e;
+}
+.name h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    z-index: 1;
+    color:#004b4e;
+}
+.name h2 span{
+    font-family: 'Sacramento', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    z-index: 1;
+    color:#015e61;
+}
